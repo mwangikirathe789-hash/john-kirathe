@@ -1,0 +1,58 @@
+<!DOCTYPEhtml>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>MMU E learning</title>
+</head>
+<body>
+    <style>
+        * {
+            margin:0;
+            border: solid black 1px;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: rgba(0, 0, 255, 0.763);
+            font-size: 36px;
+            text-align: center;
+            font : italic;
+        }
+        aside {
+            position: fixed;
+            top: 0;
+            background-color: #333;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+            font-size: 18px;
+            float: left;
+        }
+    </style>
+<h1>MMU E learning</h1>
+<aside>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">Grading</a></li>
+        </ul>
+</aside>
+
+</body>
+</html>

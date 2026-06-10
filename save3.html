@@ -1,0 +1,143 @@
+<!DOCTYPEhtml>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>MMU E learning</title>
+</head>
+<body>
+    <style>
+        * {
+            margin:0;
+            
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: rgba(0, 0, 255, 0.763);
+            font-size: 36px;
+            text-align: center;
+            font : italic;
+            background-color: #001008bd;
+            text-spacing: 30px;
+           
+        }
+        aside {
+            background-color: #333;
+            display: block;
+            text-align: center;
+            height: 50px;
+          
+            
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline-block;
+            margin-right: 20px;
+            font-size: 18px;
+            text-align: center;
+            spacing: 40px;
+            
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #0dd338;
+            
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            text-align: center;
+            spacing: 40px;
+        }
+        nav ul li a:hover {
+            background-color: #0cec719f;
+        }
+        .container {
+            display: grid;
+            justify-content: space-around;
+            margin-top: 50px;
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap: 20px;
+        }
+        .card {
+            background-color: rgba(21, 11, 194, 0.822);
+            border-radius: 5px;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            height: 150px;
+            width: 300px;
+        }
+        .card h3 {
+            color: white;
+            margin-bottom: 10px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .card p {
+            color: white;
+            margin-bottom: 20px;
+            font-size: 18px;
+        }
+        .card button {
+            background-color: #0cec716d;
+            color: red;
+            border: 1px solid #0cec716d;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .card button:hover {
+            background-color: #0cec716d;
+            color: rgba(146, 7, 7, 0.466);
+            border: 1px solid #0cec716d;
+        }
+        a {
+            
+            color: #0dd338;
+            font-size: 18px;
+        }
+        a:hover {
+            color: #0cec719f;
+        }
+            footer {
+                margin-top: 50px;
+                text-align: center;
+                color: #333;
+            }
+    </style>
+<h1>MMU E learning</h1>
+<aside>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="courses.html">profile</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">Grading</a></li>
+            
+        </ul>
+</aside>
+    <p>Welcome to MMU E learning platform! Explore our courses and enhance your knowledge.</p><br>
+    <p><b>select the right course in accordance with your major and year of study</b></p>
+    <div class="container">
+        <div class="card"><h3>HIV/AIDS</h3><P>semester 1.1</P><button onclick="openModal()">open</a></button></div>
+        <div class="card"><h3>COMMUNICATION SKILLS</h3><P>semester 1.2</P><button onclick="openModal()">open</button></div>
+        <div class="card"><h3>CRITICAL THINKING</h3><P>semester 2.2</P><button onclick="openModal()">open</button></div>
+    </div>
+    <a href="file:///C:/Users/hh/OneDrive/Documents/OneDrive/Desktop/c%20questions/Alarms/Lab%20II%20-%20Algorithms.pdf" target="_blank">assessment test</a>
+    <footer>
+        <p>&copy; 2023 MMU E learning. All rights reserved.</p>
+    </footer>
+</body>
+</html>
